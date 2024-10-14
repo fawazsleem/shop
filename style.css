@@ -1,0 +1,45 @@
+@font-face {
+    src: url(fonte/Roboto-Black.ttf);
+    font-family: roboto;
+}
+
+body{
+    background-color: rgb(61, 63, 65);
+    padding: 1em;
+}
+
+.img{
+    width: 10em;
+    height: auto;
+    border-radius: 1em;
+}
+
+label{
+    font-family: roboto;
+    font-size: 1em;
+}
+
+.box{
+    background-color: rgb(33, 34, 36);
+    border: 5px solid rgb(19, 19, 19);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1em;
+    width: 10em;
+    color: rgb(165, 160, 160);
+}
+
+button{
+    width: 5em;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(122, 181, 233);
+    border: 2px solid rgb(154, 255, 250);
+    border-radius: 5px;
+    font-family: roboto;
+    
+}
+
+button:hover{
+    background-color: rgb(85, 176, 255);
+}
